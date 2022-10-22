@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlueCollar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Mulish&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />    
+</head>
+
+<body>
+    <header class="header" id="up">
+        <div class="background_gray">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__time">
+                        <span>Opening Hours: 06:00 to 20:00</span>
+                    </div>
+                    <div class="header__social">
+                        <a href="https://facebook.com" target="_blank"><img src="header/01.svg" alt="icon of Facebook" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="header/02.svg" alt="icon of Twitter" /></a>
+                        <a href="https://instagram.com" target="_blank"><img src="header/04.svg" alt="icon of Instagram" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background_white">
+            <div class="container header__container">
+                <div class="header__bottom">
+                    <div class="header__logo">
+                        <img src="header/logo.svg" alt="icon of logo">
+                    </div>
+                    <div class="contacts">
+                        <div class="contacts__item">
+                            <img src="header/icon-email.svg" alt="an icon of e-mail">
+                            <h1>Mail Us</h1>
+                            <h2>Info@bluecollar.com</h2>
+                        </div>
+                        <div class="contacts__item">
+                            <img src="header/icon-phone.svg" alt="an icon of phone">
+                            <h1>Call Us</h1>
+                            <h2>+01 234 567 890</h2>
+                        </div>
+                    </div>
+                    <div class="navbar header__navbar">
+                        <nav class="navbar__list">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#offers">Offers</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#contacts">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                        <div class="button-link navbar__button-link button-link_blue">
+                            <a href="#questions">Have Any Questions?</a>
+                        </div>
+                        <button type="button" class="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <div class="curtain">
+                            <button class="burger-close" type="button">
+                                <img src="header/burger-close.svg" alt="an image of close button">
+                            </button>
+                            <nav class="curtain__list">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#about">About Us</a></li>
+                                    <li><a href="#offers">Offers</a></li>
+                                    <li><a href="#projects">Projects</a></li>
+                                    <li><a href="#contacts">Contact Us</a></li>
+                                </ul>
+                            </nav>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="view-services">
+        <div class="background_view-services-image">
+            <div class="container view-services__container">
+                <div class="view-services__description">
+                    <div class="intro intro_main">
+                        <span>improve our customers’ lives by providing effective solutions.</span>
+                    </div>
+                    <h1 class="title view-services__title">A recognized leader in services industry</h1>
+                    <div class="button-link button-link_orange">
+                        <a href="#services">View Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="welcome background_white" id="about">
+        <div class="container welcome__container">
+            <div class="welcome__image">
+                <img src="welcome/01.jpg" alt="there is a picture">
+            </div>
+            <div class="welcome__content">
+                <div class="intro welcome__intro intro_first">
+                    <span>Welcome BlueCollar</span>
+                </div>
+                <h1 class="title welcome__title">We Provide Your Future</h1>
+                <div class="welcome__text">
+                    <p class="text">Bluecollar Electrical services was established in 2008. We are trusted and reliable
+                        electricians who serve customers in the city as well as throughout United States Of America.</p>
+                    <p class="text">We have extensive experience of domestic and business electrical installations and
+                        no job is too small. Our customers value our professionalism, work ethic and our competitive
+                        prices.</p>
+                </div>
+            </div>
+            <div class="welcome__experience">
+                <div class="welcome__number">
+                    <span>35</span>
+                    <span>Years Of <br> Experience</span>
+                </div>
+                <div class="welcome__list">
+                    <ul class="text">
+                        <li>- For all your system requirements</li>
+                        <li>- All work undertaken by qualified</li>
+                        <li>- Experienced office staff on hand</li>
+                        <li>- A Full Guarantee On Workmanship</li>
+                        <li>- Properties at a reasonable price.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer background_orange" id="offers">
+        <div class="container offer__container">
+            <div class="intro offer__intro intro_first">
+                <span>What We Offer</span>
+            </div>
+            <div class="title offer__title">
+                <h1>Professional Main Services</h1>
+            </div>
+            <div class="text text_blue">
+                <p>We have extensive experience of domestic and business electrical installations and no job is <br>
+                    too small. Our customers value our professionalism, work ethic and our competitive prices.</p>
+            </div>
+            <div class="offer__buttons">
+                <button class="btn-commercial" type="button">Commercial</button>
+                <button class="btn-residential" type="button">Residential</button>
+                <button class="btn-industrial" type="button">Industrial</button>
+            </div>
+
+            <article class="commercial background_white">
+                <div class="flex-container">
+                    <div class="commercial__content">
+                        <div class="intro commercial__intro">
+                            <span>Electrical installation</span>
+                        </div>
+                        <div class="title">
+                            <h1>Commercial</h1>
+                        </div>
+                        <div class="text commercial__text text_gray">
+                            <p>Electrical & Maintenance Services Ltd offers a full range of electrical services to suit
+                                your needs – from moving a light switch to complete house rewires.</p>
+                            <p>In addition to providing fully qualified, competent electricians in and around London,
+                                the company also runs an electrical wholesale shop.</p>
+                        </div>
+                        <div class="button-link commercial__button-link button-link_orange">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="commercial__image">
+                        <img src="offer/image01.jpg" alt="there is a picture">
+                    </div>
+                </div>
+            </article>
+
+            <article class="residential background_white">
+                <div class="flex-container">
+                    <div class="residential__content">
+                        <div class="intro residential__intro">
+                            <span>Electrical installation</span>
+                        </div>
+                        <div class="title">
+                            <h1>Residential</h1>
+                        </div>
+                        <div class="text residential__text text_gray">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ad iure earum culpa sunt
+                                assumenda vitae, esse, laborum ullam, mollitia hic iusto officia inventore recusandae
+                                quis dicta itaque vel voluptas.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque delectus deserunt
+                                iusto maxime similique labore voluptatum, expedita consequatur ullam neque repellendus
+                                enim vero fugiat. Dolores cumque quos obcaecati vero est.</p>
+                        </div>
+                        <div class="button-link residential__button-link button-link_orange">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="residential__image">
+                        <img src="offer/image02.jpg" alt="there is a picture">
+                    </div>
+                </div>
+            </article>
+
+            <article class="industrial background_white">
+                <div class="flex-container">
+                    <div class="industrial__content">
+                        <div class="intro industrial__intro">
+                            <span>Electrical installation</span>
+                        </div>
+                        <div class="title">
+                            <h1>Industrial</h1>
+                        </div>
+                        <div class="text industrial__text text_gray">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ad iure earum culpa sunt
+                                assumenda vitae, esse, laborum ullam, mollitia hic iusto officia inventore recusandae
+                                quis dicta itaque vel voluptas.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque delectus deserunt
+                                iusto maxime similique labore voluptatum, expedita consequatur ullam neque repellendus
+                                enim vero fugiat. Dolores cumque quos obcaecati vero est.</p>
+                        </div>
+                        <div class="button-link industrial__button-link button-link_orange">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="industrial__image">
+                        <img src="offer/image03.jpg" alt="there is a picture">
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="services background_gray" id="services">
+        <div class="container">
+            <div class="services__header">
+                <div class="intro services__intro intro_second">
+                    <span>Area Of Service</span>
+                </div>
+                <div class="title">
+                    <h1>Our Services</h1>
+                </div>
+                <div class="text text_gray">
+                    <p>We offers a comprehensive range of electrical services for domestic and commercial <br>
+                        properties at a reasonable price.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="services/icon01.png" alt="icon of air condition service">
+                    </div>
+                    <div class="title card__title">
+                        <h1>Air condition service</h1>
+                    </div>
+                    <div class="text card__text">
+                        <p>Services are able to service your entire electrical infrastructure from Thermal Imaging
+                            of your air condition from switchboards.</p>
+                    </div>
+                    <div class="card__link">
+                        <a class="text" href="#">View More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="services/icon02.png" alt="icon of electrical installation">
+                    </div>
+                    <div class="title card__title">
+                        <h1>Electrical installation</h1>
+                    </div>
+                    <div class="text card__text">
+                        <p>The art electrical installations that provide all the necessary electrical solutions to
+                            suit your business, home or industrial premises. </p>
+                    </div>
+                    <div class="card__link">
+                        <a class="text" href="#">View More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="services/icon03.png" alt="icon of General Builder">
+                    </div>
+                    <div class="title card__title">
+                        <h1>General Builder</h1>
+                    </div>
+                    <div class="text card__text">
+                        <p>We provide impeccable safety assessments to both commercial, residential properties. Our
+                            adept & knowledgeable electricians.</p>
+                    </div>
+                    <div class="card__link">
+                        <a class="text" href="#">View More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="services/icon04.png" alt="icon of Security System">
+                    </div>
+                    <div class="title card__title">
+                        <h1>Security System</h1>
+                    </div>
+                    <div class="text card__text">
+                        <p>Utilized for measuring flow, temperature level & pressure in the manufacturing industry
+                            array of technology is ensure productivity.</p>
+                    </div>
+                    <div class="card__link">
+                        <a class="text" href="#">View More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="services/icon05.png" alt="icon of service & maintenance">
+                    </div>
+                    <div class="title card__title">
+                        <h1>Service & maintenance</h1>
+                    </div>
+                    <div class="text card__text">
+                        <p>Electrical Services are able to service your entire electrical infrastructure from
+                            Thermal Imaging of your switch boards.</p>
+                    </div>
+                    <div class="card__link">
+                        <a class="text" href="#">View More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="services/icon06.png" alt="icon of House Extensions">
+                    </div>
+                    <div class="title card__title">
+                        <h1>House Extensions</h1>
+                    </div>
+                    <div class="text card__text">
+                        <p>Traditionally, electricity is supplied through overhead network poles, where the cable is
+                            connected to your building.</p>
+                    </div>
+                    <div class="card__link">
+                        <a class="text" href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="grid-container">
+            <div class="column-left background_why-image">
+                <div class="column-left__blue-box">
+                    <div class="achievments">
+                        <div>
+                            <span>3956</span>
+                        </div>
+                        <h2>Project Done</h2>
+                    </div>
+                    <div class="achievments">
+                        <div>
+                            <span>854</span>
+                        </div>
+                        <h2>People Working</h2>
+                    </div>
+                    <div class="achievments">
+                        <div>
+                            <span>265</span>
+                        </div>
+                        <h2>Business Partners</h2>
+                    </div>
+                    <div class="achievments">
+                        <div>
+                            <span>845+</span>
+                        </div>
+                        <h2>Happy Customers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="column-right">
+                <div class="intro intro_third">
+                    <span>Why Choose Us</span>
+                </div>
+                <div class="title">
+                    <h1>Few Reasons Why You Should Choose Us</h1>
+                </div>
+                <div class="text text_gray">
+                    <p>We are offering the following information's about us that what we actually do in the electrical
+                        sector. To Improve our customers’ lives by providing creative and cost-effective solutions to
+                        their needs.</p>
+                </div>
+                <div class="column-right__list">
+                    <div class="column-right__list-item">
+                        <h2>35 Years Experience</h2>
+                        <p class="text text_gray">Effective communication is the key to success for any business. From
+                            our office staff, to our field.</p>
+                    </div>
+                    <div class="column-right__list-item">
+                        <h2>Excellence Certificate</h2>
+                        <p class="text text_gray">We understand fully that your time is of extreme value. We are
+                            committed to meeting deadlines.</p>
+                    </div>
+                    <div class="column-right__list-item">
+                        <h2>Affordable Price</h2>
+                        <p class="text text_gray">We adhere strictly to the current National Electrical Code, and we
+                            conduct regular in-house sessions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery background_blue" id="projects">
+        <div class="intro gallery__intro intro_third">
+            <span>The Gallery</span>
+        </div>
+        <div class="title gallery__title">
+            <h1>Our Recent Projects</h1>
+        </div>
+        <div class="flex-container gallery__flex-container">
+            <div class="project background_white">
+                <a href="#">
+                    <div class="project__image">
+                        <img src="gallery/img01.png" alt="the image of cable change">
+                    </div>
+                    <div class="subtitle project__subtitle">
+                        <h2>Fiber cable change</h2>
+                    </div>
+                    <div class="text text_gray">
+                        <span>Commercial</span>
+                    </div>
+                </a>                
+            </div>
+            <div class="project background_white">
+                <a href="#">
+                    <div class="project__image">
+                        <img src="gallery/img02.png" alt="the image of Industry machine issue">
+                    </div>
+                    <div class="subtitle project__subtitle">
+                        <h2>Industry machine issue</h2>
+                    </div>
+                    <div class="text text_gray">
+                        <span>Industry</span>
+                    </div>
+                </a>
+            </div>
+            <div class="project background_white">
+                <a href="#">
+                    <div class="project__image">
+                        <img src="gallery/img03.png" alt="the image of Wheel Alloy Change">
+                    </div>
+                    <div class="subtitle project__subtitle">
+                        <h2>Wheel Alloy Change</h2>
+                    </div>
+                    <div class="text text_gray">
+                        <span>Residential</span>
+                    </div>
+                </a>
+            </div>
+            <div class="project background_white">
+                <a href="#">
+                    <div class="project__image">
+                        <img src="gallery/img04.png" alt="the image of Roof Cleaning">
+                    </div>
+                    <div class="subtitle project__subtitle">
+                        <h2>Roof Cleaning</h2>
+                    </div>
+                    <div class="text text_gray">
+                        <span>Commercial</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="customers background_white" id="questions">
+        <div class="container customers__container">
+            <div class="testimonial-column">
+                <div class="intro intro_third">
+                    <span>Testimonial</span>
+                </div>
+                <div class="title">
+                    <h1>Customers Says</h1>
+                </div>
+                <div class="review">
+                    <div class="review__flex-container">
+                        <div class="review__icon">
+                            <img src="customers/icon-photo.png" alt="a photo of a customer">
+                            <ul>
+                                <li>Nancy luther</li>
+                                <li class="text text_gray">NewYork</li>
+                            </ul>
+                        </div>
+                        <div class="review__quotes">
+                            <img src="customers/icon-quotes.svg" alt="an icon of quotes">
+                        </div>
+                    </div>
+                    <div class="text review__text text_gray">
+                        <p>We have had several good experiences with <span>Blue Collar</span> team. Most recently,
+                            they replaced our 20-year-old HVAC system with a new, <span>modern, and more
+                                efficient</span> system & it worked fine. </p>
+                    </div>
+                    <div class="review__slider">
+                        <button type="button"></button>
+                        <button type="button"></button>
+                    </div>
+                </div>
+                <div class="questions background_orange">
+                    <div class="intro intro_third">
+                        <span>Any Question</span>
+                    </div>
+                    <div class="subtitle">
+                        <h2>99.9% Customer Satisfaction Based</h2>
+                    </div>
+                    <div class="text text_blue">
+                        <p>If you have any questions or need help contact with our team, or call</p>
+                    </div>
+                    <div class="phone-number">
+                        <div class="phone-number__icon"></div>
+                        <div class="phone-number__number">
+                            <span>(003) 123 456 7890</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="meet-column">
+                <div class="intro intro_third">
+                    <span>Meet Us</span>
+                </div>
+                <div class="title">
+                    <h1>Appointment Form</h1>
+                </div>
+                <div class="meet-column__form-column">
+                    <form class="form" name="appointment" action="#" method="post">
+                        <input name="user-name" type="text" placeholder="Your name" maxlength="25" required>
+                        <input name="user-email" type="email" placeholder="Your email" maxlength="40" required>
+                        <input name="user-number" type="tel" placeholder="Your Phone Number" maxlength="25" required>
+                        <textarea name="user-description" placeholder="Service Description"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price background_gray">
+        <div class="container">
+            <div class="header-price">
+                <div class="intro header-price__intro intro_second">
+                    <span>Price Plan</span>
+                </div>
+                <div class="title">
+                    <h1>Let’s Customize Work With Affordable Price</h1>
+                </div>
+                <div class="text text_gray">
+                    <p>This is passionate about delivering growth and the new possibilities in the field of electrical
+                        services. We have extensive experience of domestic and business electrical installations and no
+                        job is too small.</p>
+                </div>
+            </div>
+            <div class="price-cards">
+                <div class="plan background_white">
+                    <div class="plan__tariff">
+                        <span>Basic Plan</span>
+                    </div>
+                    <div class="row plan__header">
+                        <div class="plan__header-left">
+                            <span>$ 599.00</span>
+                        </div>
+                        <div class="text text_gray">
+                            <span>Per Visit Charge</span>
+                        </div>
+                    </div>
+                    <div class="plan__content">
+                        <ul class="text text_gray">
+                            <li>Electrical Service</li>
+                            <li>Distribution Power Systems</li>
+                            <li>High & Medium Voltages</li>
+                            <li>Industrial Control Systems</li>
+                            <li>Switch Installation</li>
+                            <li>Generator Installations</li>
+                            <li>Innovative Construction</li>
+                        </ul>
+                    </div>
+                    <div class="button-link plan__button-link button-link_orange">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="plan background_white">
+                    <div class="plan__tariff">
+                        <span>Standard</span>
+                        <span>Popular</span>
+                    </div>
+                    <div class="row plan__header">
+                        <div class="plan__header-left">
+                            <span>$ 699.00</span>
+                        </div>
+                        <div class="text text_gray">
+                            <span>Per Visit Charge</span>
+                        </div>
+                    </div>
+                    <div class="plan__content">
+                        <ul class="text text_gray">
+                            <li>PLC Controls</li>
+                            <li>Conveyor systems</li>
+                            <li>Wiring renovations</li>
+                            <li>Electric Water Heater Repair</li>
+                            <li>Service And Panel Upgrades</li>
+                            <li>Efficient Lighting Solutions</li>
+                            <li>Site lighting</li>
+                        </ul>
+                    </div>
+                    <div class="button-link plan__button-link button-link_orange">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="plan background_white">
+                    <div class="plan__tariff">
+                        <span>Professional</span>
+                    </div>
+                    <div class="row plan__header">
+                        <div class="plan__header-left">
+                            <span>$ 799.00</span>
+                        </div>
+                        <div class="text text_gray">
+                            <span>Per Visit Charge</span>
+                        </div>
+                    </div>
+                    <div class="plan__content">
+                        <ul class="text text_gray">
+                            <li>Cable Tray Installations</li>
+                            <li>Wiring Upgrades</li>
+                            <li>Energy Efficient Lighting</li>
+                            <li>Emergency Generating</li>
+                            <li>Pools And Hot Tubs</li>
+                            <li>Air Conditioning Units</li>
+                            <li>Generating Systems</li>
+                        </ul>
+                    </div>
+                    <div class="button-link plan__button-link button-link_orange">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="price__bottom">
+                <div class="affordable-price">
+                    <div class="subtitle affordable-price__subtitle">
+                        <h2>Affordable Price</h2>
+                    </div>
+                    <div class="text affordable-price__text text_gray">
+                        <p>We adhere strictly to the current National Electrical Code, and we conduct regular in-house
+                            sessions with our technicians to review any code changes and applications.</p>
+                    </div>
+                </div>
+                <div class="affordable-price">
+                    <div class="subtitle affordable-price__subtitle">
+                        <h2>Fixed Plan</h2>
+                    </div>
+                    <div class="text affordable-price__text text_gray">
+                        <p>We understand fully that your time is of extreme value. You will never have to worry about
+                            waiting around for our trained technicians. 24/7 Service Providers Affordable Price.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer background_blue" id="contacts">
+        <div class="container">
+            <div class="footer-top">
+                <div class="logo footer-top__logo">
+                    <img src="footer/footer-logo.svg" alt="icon of logo">
+                </div>
+                <div class="contacts">
+                    <div class="contacts__item contacts__item_white">
+                        <img src="header/icon-email.svg" alt="an icon of e-mail">
+                        <h1>Mail Us</h1>
+                        <h2>Info@bluecollar.com</h2>
+                    </div>
+                    <div class="contacts__item contacts__item_white">
+                        <img src="header/icon-phone.svg" alt="an icon of phone">
+                        <h1>Call Us</h1>
+                        <h2>+01 234 567 890</h2>
+                    </div>
+                    <div class="contacts__item contacts__item_white">
+                        <img src="footer/icon-location.svg" alt="an icon of location">
+                        <h1>Location</h1>
+                        <h2>Amsterdam, 109-74</h2>
+                    </div>
+                </div>   
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom__social">
+                    <div class="text text_white">
+                        <p>We are here to fit the needs of your basic services for your dream building whether its a
+                            commercial, residential or industry.</p>
+                    </div>
+                    <div class="footer-bottom__icons">
+                        <div class="footer-icon">
+                            <a href="https://www.instagram.com" target="_blank"><img src="footer/footer-inst.svg" alt="an icon of Instagram"></a>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="https://www.facebook.com" target="_blank"><img src="footer/footer-fb.svg" alt="an icon of Facebook"></a>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="https://twitter.com" target="_blank"><img src="footer/footer-twitter.svg" alt="an icon of Twitter"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom__links">
+                    <ul class="text text_white">
+                        <li>Explore</li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <ul class="text text_white">
+                        <li>Quick Links</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Service Single</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Projects Single</a></li>
+                    </ul>    
+                    <ul class="text text_white">
+                        <li>Utility Pages</li>
+                        <li><a href="#">Style Guide</a></li>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">Licenses</a></li>
+                        <li><a href="#">Protected Page</a></li>
+                        <li><a href="#">404 Page</a></li>
+                    </ul>                
+                </div>               
+            </div>
+            <div class="button-up">
+                <a href="#up"><img src="footer/button-up.svg" alt="an image of arrow-up"></a>
+            </div>
+            <div class="gmn">Created by gmn</div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

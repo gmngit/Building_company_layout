@@ -1,0 +1,27 @@
+/*======================= Reset and base styles  */
+* {	padding: 0px;
+	margin: 0px; 
+    border: 0px; }
+*,
+*::before,
+*::after {box-sizing: border-box;}
+a, a:link, a:visited, a:hover {text-decoration: none; color: inherit;}
+aside, nav, footer, header, section, main {display: block;}
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit; }
+img {	
+	display: block;
+    max-width: 100%;
+	height: auto; }
+ul, ol {list-style-type: none;}	
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit; }
+button {cursor: pointer;}
+input::-ms-clear {display: none;}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0; }
+/*======================= Reset and base styles  */
